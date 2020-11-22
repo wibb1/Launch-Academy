@@ -1,0 +1,7 @@
+---
+title: "Voter Demographics"
+type: "challenge"
+description: "Use compound data structures to analyze voter data"
+tags: "arrays, hashes, compound-data-structures"
+ignore:
+- "voter-demographics.md"

@@ -1,0 +1,7 @@
+---
+title: "Ballot Results"
+type: "exercise"
+description: "Use compound data structures to analyze voter data"
+tags: "compound-data-structures, 2d-arrays"
+ignore:
+- "ballot-results.md"

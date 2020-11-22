@@ -1,0 +1,7 @@
+---
+title: "Laser Advisor"
+type: "challenge"
+description: "Using hashes, identify the right laser for the shot!"
+tags: "hashes"
+ignore:
+- "laser-advisor.md"

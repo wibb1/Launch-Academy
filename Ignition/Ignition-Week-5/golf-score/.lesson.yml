@@ -1,0 +1,8 @@
+---
+title: "Golf Score"
+type: "exercise"
+description: "Calculate your golf score using compound data structures"
+tags: "compound-data-structures"
+ignore:
+- "golf-score.md"
+- "solution.rb"

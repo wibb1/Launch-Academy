@@ -1,0 +1,7 @@
+---
+title: "Invite The Crew"
+type: "exercise"
+description: "Use hashes to email the upcoming flight crew members."
+tags: "hashes"
+ignore:
+- "invite-the-crew.md"

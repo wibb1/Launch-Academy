@@ -1,0 +1,24 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+img {
+  height: 20rem;
+  width: 70%;
+  margin-top: 2rem;
+}
+
+.box-div {
+  border: 1px solid black;
+  margin-top: 2rem;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.beauty {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;  
+}
+

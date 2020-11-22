@@ -1,0 +1,11 @@
+# Files to ignore when uploading to Launch
+data/
+lib/
+tests/
+.jshintrc
+CHANGELOG.md
+nebula-part-es6.md
+Gruntfile.js
+help.txt
+index.js
+package.json

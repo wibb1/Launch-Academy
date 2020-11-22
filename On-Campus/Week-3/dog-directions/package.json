@@ -1,0 +1,30 @@
+{
+  "name": "dog-directions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "node_modules/.bin/webpack-dev-server --host 0.0.0.0",
+    "webpack": "node_modules/.bin/webpack --config ./react/webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^0.26.2",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.2",
+    "style-loader": "^0.13.2",
+    "webpack": "~2.3.1",
+    "webpack-dev-server": "~2.4.2",
+    "write-file-webpack-plugin": "~4.2.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "react": "~16.8.0",
+    "react-dom": "~16.8.0"
+  }
+}

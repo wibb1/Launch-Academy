@@ -1,0 +1,21 @@
+$blue: #358DF7;
+$grey: #E7E5E7;
+$light-grey: #F8F8F6;
+$yellow: #FBE08C;
+
+div {
+  color: $blue;
+}
+
+.app {
+  border: 1px solid rgba(10,10,10,.25);
+}
+
+.selected {
+  background-color: $yellow;
+  width: 100%
+}
+
+.title {
+  text-align: center;
+}

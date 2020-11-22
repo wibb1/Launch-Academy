@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=ABeeZee|Open+Sans');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'ABeeZee', serif;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+div {
+  padding: 10px;
+  margin: 10px;
+}
+
+.pink-bg {
+  background-color: #ed1a7b;
+}
+
+.green-bg {
+  background-color: #84ce15;
+}
+
+.blue-bg {
+  background-color: #37becc;
+}
+
+.event-tile {
+  background-color: #37becc;
+}
+
+.event-management-app {
+  background-color: #e5f3f4;
+  color: #1c2224;
+}

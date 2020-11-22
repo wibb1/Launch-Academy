@@ -1,0 +1,23 @@
+.selected {
+  background-color: lightblue;
+}
+
+.mts {
+  margin-top: 10px;
+}
+
+.mbl {
+  margin-bottom: 20px;
+}
+
+.restaurants {
+  border: 2px blue solid;
+  padding: 5px;
+  margin: 5px;
+}
+
+.reviews {
+  border: 2px green solid;
+  padding: 5px;
+  margin: 5px;
+}

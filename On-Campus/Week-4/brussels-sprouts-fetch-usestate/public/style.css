@@ -1,0 +1,37 @@
+body {
+  background-color: #c1c5ea;
+}
+
+.container {
+  background-color: white;
+  max-width: 80%;
+  margin: auto;
+  padding: 5%;
+  margin-top: 10%;
+}
+
+h1, p, li {
+  text-align: center;
+}
+
+li {
+  text-align: center;
+  list-style-type: none;
+}
+
+.btn {
+  background-color: #816f7c;
+  padding: 2%;
+  color: white;
+  margin: 1%;
+}
+
+.btn:hover {
+  background-color: #a799a3;
+  cursor: pointer;
+}
+
+.buttons {
+  text-align: center;
+  margin: auto;
+}

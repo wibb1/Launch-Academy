@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Almond Milk",
+    "description": "An ethically complicated classic"
+  },
+  {
+    "id": 2,
+    "name": "Oat Milk",
+    "description": "Sounds wholesome"
+  },
+  {
+    "id": 3,
+    "name": "Whole, Cow Milk",
+    "description": "Mmmmmmmmm(mooooooooo)"
+  },
+  {
+    "id": 4,
+    "name": "Soy Milk",
+    "description": "The non-dairy milk that started it all"
+  }
+]

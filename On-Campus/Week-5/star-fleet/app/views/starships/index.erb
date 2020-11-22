@@ -1,0 +1,8 @@
+<h1>Ships</h1>
+<ul>
+<%@starships.each do |ship|%>
+  <li><a href="starships/<%="#{ship.id}"%>"><%=ship.name%></a></li>
+<%end%>
+</ul>
+
+<a href="starships/new">Create a New Starship Registration</a>

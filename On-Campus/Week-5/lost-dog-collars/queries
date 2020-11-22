@@ -1,0 +1,68 @@
+Which collars have a known owner? Display only collars with known owners and those owners' names.
+Find where the dog owner and dog are in both lost-dog-collars and dog_owners
+
+INNER JOIN - will do this!
+
+For which collars is there no known owner? Display only collars without known owners.
+
+RIGHT or LEFT JOIN will do this WHERE dog_owners.name is NULL
+
+
+What collars are in our possession? Display all collars in our possession. If an owner exists for a given collar, display that also.
+
+
+
+
+What owners do we know about? Display all owners known to us. If a collar matches that owner, display the collar also.
+
+
+
+
+dog_park=# \d
+                     List of relations
+ Schema |          Name           |   Type   |    Owner
+--------+-------------------------+----------+--------------
+ public | dog_owners              | table    | willcampbell
+ public | dog_owners_id_seq       | sequence | willcampbell
+ public | lost_dog_collars        | table    | willcampbell
+ public | lost_dog_collars_id_seq | sequence | willcampbell
+(4 rows)
+
+dog_park=# SELECT * from dog_owners
+dog_park-# ;
+ id |  name   | dog_name
+----+---------+----------
+  1 | Omid    | Bronson
+  2 | Evan    | Bogie
+  3 | Whitney | Gilly
+  4 | Spencer | Lilly
+  5 | Dan     | Apple
+  6 | Dan     | Linux
+(6 rows)
+
+
+dog_park=# SELECT * from lost_dog_collars;
+ id | dog_name
+----+----------
+  1 | Bogie
+  2 | Lassie
+  3 | Gilly
+  4 | Lilly
+  5 | Fido
+  6 | Linux
+  7 | Bronson
+  8 | Goose
+(8 rows)
+
+dog_park=# SELECT dog_owners.name, lost_dog_collars.dog_name
+dog_park-#   FROM dog_owners
+dog_park-#   JOIN lost_dog_collars
+dog_park-#   ON (dog_owners.dog_name = lost_dog_collars.dog_name);
+  name   | dog_name
+---------+----------
+ Evan    | Bogie
+ Whitney | Gilly
+ Spencer | Lilly
+ Dan     | Linux
+ Omid    | Bronson
+(5 rows)

@@ -1,0 +1,7 @@
+---
+title: "JavaScript Marathon"
+type: "exercise"
+description: "Build a spaceship together and take off!"
+tags: "javascript, marathon"
+ignore:
+- "js-marathon.md"

@@ -1,0 +1,6 @@
+---
+title: "Space Jams JS"
+type: "challenge"
+description: "Build a ruby class with instance methods."
+ignore:
+- "space-jams-js.md"

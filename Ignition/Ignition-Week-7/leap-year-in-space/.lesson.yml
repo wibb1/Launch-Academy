@@ -1,0 +1,7 @@
+---
+title: "Leap Year In Space"
+type: "exercise"  # challenge, exercise, article, video
+description: "Find all the Leap Years in this century."
+tags: "javascript, oop"
+ignore:
+- "leap-year-in-space.md"

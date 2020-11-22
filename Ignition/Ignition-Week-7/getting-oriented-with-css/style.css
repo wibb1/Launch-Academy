@@ -1,0 +1,40 @@
+body {
+  background-color: purple;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  color: steelblue;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: normal;
+  color: #674172;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: normal;
+  color: lightcoral;
+}
+
+h4 {
+  font-size: 25px;
+  font-weight: normal;
+  font-style: italic;
+  color: #1BA39C;
+}
+
+a {
+  color: #1E8BC3;
+  font-size: 1em;
+}
+
+p {
+  font-size: 16px;
+  font-style: italic;
+  color: mediumpurple;
+}

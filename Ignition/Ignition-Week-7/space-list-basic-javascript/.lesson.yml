@@ -1,0 +1,7 @@
+---
+title: "SpaceList: Basic Javascript"
+type: "challenge"  # challenge, exercise, article, video
+description: "Lesson Description."
+tags: "javascript, systems-check"
+ignore:
+- "space-list-basic-javascript.md"

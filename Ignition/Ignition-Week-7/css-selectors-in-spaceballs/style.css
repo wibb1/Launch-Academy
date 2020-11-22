@@ -1,0 +1,38 @@
+.helmet {
+  color: #0077CC;
+
+}
+.helmet h4 {
+ color: #0A4670;
+}
+
+.corporal{
+  color: #EE6363;
+
+}
+.corporal h4 {
+  color: #CD4242;
+}
+
+.sandruz{
+  color:#8EA142;
+  
+}
+.sandruz h4 {
+  color: #3E4814;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.dialog {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.stage-direction {
+  color: #362819;
+}

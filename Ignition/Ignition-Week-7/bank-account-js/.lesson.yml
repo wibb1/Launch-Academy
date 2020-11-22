@@ -1,0 +1,7 @@
+---
+title: "BankAccount.js"
+type: "exercise"  # challenge, exercise, article, video
+description: "Model a bank account using JavaScript and the OOP design pattern."
+tags: "javascript, oop"
+ignore:
+- "bank-account-js.md"

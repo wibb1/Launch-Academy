@@ -1,0 +1,11 @@
+<h1>Movies I Have Watched</h1>
+
+<ul>
+  <% @movies.each do |movie| %>
+    <li>
+      <%= "#{movie["title"]}, #{movie["release_year"]}, #{movie["runtime"]} runtime" %>
+    </li>
+  <% end %>
+</ul>
+
+<a href="/movies/new">Add A Movie</a>

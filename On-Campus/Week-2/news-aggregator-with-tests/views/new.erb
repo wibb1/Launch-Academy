@@ -1,0 +1,13 @@
+<h3>Add a NEW Article</h3>
+
+<ul>
+<form action="/articles/new" method="post"><!--ACTION IS THE PAGE THAT THE FORM SHOULD RETURN TO-->
+  <label for="title">Title: <input type="text" id="title" name="title"></label> <!--FOR, NAME, AND ID MUST BE CHANGED AND MATCH-->
+  <label for="description">Description:<input type="text" id="description" name="description"></label><!--FOR, NAME, AND ID MUST BE CHANGED AND MATCH-->
+  <label for="url">URL:<input type="text" id="url" name="url"></label><!--FOR, NAME, AND ID MUST BE CHANGED AND MATCH-->
+</br></br>
+  <input type="submit" value="Add Article"> <!--button - value is the inner text-->
+  </br></br>
+  <p class="error"><%=@error%></p><!--ERROR - MAY HAVE TO USE IF STATEMENT IF THE ERROR APPEARS WITHOUT CAUSE>
+</form>
+</ul>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Roasted Brussels Sprouts</title>
+  </head>
+
+  <body>
+    <h2>Roasted Brussels Sprouts</h2>
+    <h3>Ingredients</h3>
+
+    <ul>
+      <% @ingredients.each do |ingredient| %>
+        <li><%= ingredient %></li>
+      <% end %>
+    </ul>
+
+    <form action="/ingredients" method="post">
+      <label for="ingedient">New ingredient:</label>
+      <input type="text" id="ingredient" name="ingredient">
+
+      <input type="submit">
+    </form>
+  </body>
+</html>

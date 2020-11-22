@@ -1,0 +1,23 @@
+<h1>Calculator</h1>
+
+<% if @error %>
+  <h3>Error! <%= @error %></h3>
+<% end %>
+
+<% if @result %>
+  <h3>Last result: <%= @result %></h3>
+<% end %>
+
+<form action="/calculate" method="post">
+  <label for="first_number">First Number</label>
+  <input type="text" id="first_number" name="first_number" />
+  <br />
+  <label for="second_number">Second Number</label>
+  <input type="text" id="second_number" name="second_number" />
+  <br />
+  <br />
+  <input type="submit" name="operation" value="+" />
+  <input type="submit" name="operation" value="-" />
+  <input type="submit" name="operation" value="*" />
+  <input type="submit" name="operation" value="/" />
+</form>

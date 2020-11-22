@@ -1,0 +1,11 @@
+<h1>Creatures</h1>
+
+<%@creatures.each do |creature|%>
+
+  
+  <a href="/creatures/<%=creature.name%>"><%=creature.name.capitalize%></br>
+  <img src=<%=creature.url%> alt="Creature picture here" height=200px>
+  </br>
+  </br></ul>
+<%end%>
+

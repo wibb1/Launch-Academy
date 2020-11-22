@@ -1,0 +1,7 @@
+<h1>Welcome to Procrastinator's Paradise</h1>
+<ul> <a href="/articles/new" > Add a new article </a> </ul>
+ <% @articles.each do |article|%>
+  <ul><%=article["title"]%>
+  <li><%=article["description"]%></li>
+  <li> <a target="_blank" href=<%=article["url"]%> > <%=article["url"]%> </a> </li> </ul>
+<% end %>

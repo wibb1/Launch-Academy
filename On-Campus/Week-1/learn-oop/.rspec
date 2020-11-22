@@ -1,0 +1,4 @@
+--require spec_helper.rb
+--order defined
+--color
+--fail-fast

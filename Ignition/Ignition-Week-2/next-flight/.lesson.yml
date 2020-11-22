@@ -1,0 +1,6 @@
+---
+title: "Next Flight"
+type: "challenge"
+description: "When is the next flight?"
+ignore:
+- "next-flight.md"

@@ -1,0 +1,7 @@
+---
+title: "Odd Numbers"
+type: "exercise"
+description: "Print odd numbers."
+tags: "ignition"
+ignore:
+- "odd-numbers.md"

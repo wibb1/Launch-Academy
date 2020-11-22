@@ -1,0 +1,7 @@
+---
+title: "Time Capsule"
+type: "challenge"
+description: "Build your own time capsule"
+tags: "arrays"
+ignore:
+- "time-capsule.md"

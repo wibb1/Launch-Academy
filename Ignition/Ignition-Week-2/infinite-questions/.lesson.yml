@@ -1,0 +1,7 @@
+---
+title: "Infinite Questions"
+type: "exercise"
+description: "Write a short program that continuously asks the user for input."
+tags: "meta, loops"
+ignore:
+- "infinite-questions.md"

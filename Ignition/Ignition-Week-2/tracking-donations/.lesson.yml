@@ -1,0 +1,7 @@
+---
+title: "Tracking Donations"
+type: "exercise"
+description: "writing a while loop that tracks donation input until reaching $100!"
+tags: "loops"
+ignore:
+- "tracking-donations.md"

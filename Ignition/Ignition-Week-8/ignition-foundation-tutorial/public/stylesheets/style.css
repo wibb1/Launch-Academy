@@ -1,0 +1,16 @@
+li a {
+  text-decoration: underline;
+}
+li {
+  list-style-type: none;  
+}
+.button {
+  box-shadow: 5px 5px black;
+  border-color: black;
+  border-width: 2px;
+  font-weight: bolder;
+}
+
+.breadcrumbs {
+  margin-left: 2em
+}

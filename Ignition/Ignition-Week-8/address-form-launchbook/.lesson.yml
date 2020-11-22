@@ -1,0 +1,7 @@
+---
+title: "Address Form Launchbook"
+type: "challenge"  # challenge, exercise, article, video
+description: "Validate form fields using JavaScript."
+tags: "javascript"
+ignore:
+- "address-form-launchbook.md"

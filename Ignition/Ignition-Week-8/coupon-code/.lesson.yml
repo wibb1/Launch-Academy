@@ -1,0 +1,7 @@
+---
+title: "Coupon Code"
+type: "exercise"  # challenge, exercise, article, video
+description: "Let's have a little fun with hiding and showing elements in response to a user click!"
+tags: "javascript, dom-manipulation, events"
+ignore:
+- "coupon-code.md"

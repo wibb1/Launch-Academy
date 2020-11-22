@@ -1,0 +1,44 @@
+h1 {
+  font-weight: bold;
+  color: darkblue;
+}
+
+body {
+  margin: 50px 100px;
+  background: #ADD7E6;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  width: 30%;
+  height: 30%;
+  border-radius: 25px;
+}
+
+.flex-container {
+  border: 5px solid darkblue;
+  padding: 20px;
+}
+
+button {
+  background-color: transparent;
+  border: 2px solid lightgrey;
+  border-style: outset;
+  
+}
+
+button.quotes {
+  outline-style: solid;
+  outline-width: 4px;
+  outline-color: #6FB6F1;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+

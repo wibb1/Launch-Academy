@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto|Inconsolata);
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Slab", Georgia, Cambria, "Times New Roman", Times, serif;
+  margin-top: 0;
+}
+
+button {
+  font-size: 16px;
+  margin-top: 1ex;
+}
+
+div {
+  border-radius: 5px;
+  font-size: 24px;
+}
+
+form {
+  font-family:  Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #646464;
+  background-color: #F6F6F7;
+  margin: 0 10%;
+}
+
+input {
+  font-size: 1.5rem;
+  font-family: Inconsolata, Consolas, "Liberation Mono", Courier, monospace;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  margin-bottom: 1ex;
+  margin-left: .5ex;
+}
+
+.error {
+  color: red;
+  font-size: 1rem;
+  margin-bottom: 1ex;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  flex-grow: 1;
+}
+
+.media {
+  display: block;
+}
+.media-img {
+  float:left;
+  margin-right:12px;
+}
+/**
+* Reversed image location (right instead of left).
+*/
+.media-img-rev {
+  float:right;
+  margin-left: 12px:
+}
+
+.media-img img,
+.media-img-rev img {
+  display:block;
+}
+
+.media-body {
+  overflow:hidden;
+}
+
+.media-body,
+.media-body > :last-child {
+  margin-bottom:0;
+}
+
+.post {
+  overflow: hidden;
+  transition-property: all;
+  transition-duration: .5s;
+  max-height: 1000px;
+  margin-bottom: 24px;
+}
+
+.post-liked {
+  background: rgba(0, 140, 186, 0.2);
+}
+
+.post-shared {
+  background: red;
+}
+
+.post-hidden {
+  max-height: 0;
+  margin-bottom: 0;
+}
+
+#mailing-address-form {
+  background-color: #E0F0F1;
+  font-size: 32px;
+  margin: 1ex 0;
+  padding: 1ex 1em;
+}
+
+#state {
+  width: 2em;
+}

@@ -1,0 +1,10 @@
+---
+title: "Launchbook JS"
+type: "challenge"
+description: "Practice manipulating the DOM with JavaScript."
+tags: "javascript, dom"
+ignore:
+- "app.js"
+- "app.css"
+- "index.html"
+- "launchbook-js.md"

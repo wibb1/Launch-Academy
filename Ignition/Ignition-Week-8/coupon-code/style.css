@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto|Inconsolata);
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Slab", Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+body {
+  font-family:  Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #646464;
+  background-color: #F6F6F7;
+  margin: 0 10%;
+}
+
+div {
+  border-radius: 5px;
+  font-size: 24px;
+}
+
+.sunglasses, .important-message {
+  background-color: #EAEAEA;
+  text-align: center;
+  margin: 2ex 0;
+  padding: 1ex 0;
+}
+
+#click-here {
+  color: white;
+  background-color: #E0026A;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 0 0.25em;
+}
+
+#coupon-code {
+  background-color: #E0F0F1;
+  margin: 1ex 0;
+  padding: 1ex 0;
+  text-align: center;
+}

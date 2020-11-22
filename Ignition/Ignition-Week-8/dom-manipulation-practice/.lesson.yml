@@ -1,0 +1,7 @@
+---
+title: "DOM Manipulation Practice"
+type: "exercise"  # challenge, exercise, article, video
+description: "Create a ToDo list in HTML and JavaScript."
+tags: "javascript, html"
+ignore:
+- "dom-manipulation-practice.md"

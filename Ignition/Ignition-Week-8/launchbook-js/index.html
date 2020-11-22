@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <!-- If you delete this meta tag World War Z will become a reality -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launchbook</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/normalize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/foundation.min.css" />
+    <link rel="stylesheet" href="app.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/js/vendor/modernizr.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/js/vendor/modernizr.js"></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+
+    <div class="contain-to-grid">
+      <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+          <li class="name">
+            <h1><a href="#">Launchbook</a></h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+        </ul>
+
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
+          <ul class="right">
+            <li class="active"><a href="#">Feed</a></li>
+            <li class="has-dropdown">
+              <a href="#">Account</a>
+              <ul class="dropdown">
+                <li><a href="#">Edit Profile</a></li>
+                <li><a href="#">Sign out</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+
+    <div class="row">
+      <div class="small-2 columns">
+        <div id="sidebar-left">
+          <div class="favorites">
+            <h5>Favorites</h5>
+            <ul class="side-nav">
+              <li><a href="#">News Feed</a></li>
+              <li><a href="#">Messages</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Photos</a></li>
+            </ul>
+          </div>
+          <div class="pages">
+            <h5>Pages</h5>
+            <ul class="side-nav">
+              <li><a href="#">Pages Feed</a></li>
+              <li><a href="#">Like Pages</a></li>
+              <li><a href="#">Create Ad</a></li>
+            </ul>
+          </div>
+          <div class="groups">
+            <h5>Groups</h5>
+            <ul class="side-nav">
+              <li><a href="#">Launch Academy</a></li>
+              <li><a href="#">Danger Zone</a></li>
+              <li><a href="#">Mr. G. Fan Club</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="small-8 column">
+
+        <form class="status-update">
+          <div class="row">
+            <div class="small-12 columns">
+              <label>Update your status
+                <textarea placeholder="I'm having a great day!"></textarea>
+              </label>
+            </div>
+          </div>
+        </form>
+
+        <div class="posts">
+          <ul id="list-of-posts">
+            <div class="media-img">
+              <img id="avatar-url" src="">
+            </div>
+
+            <div class="media-body">
+              <h4 id="name"> </h4>
+              <p id="content"> </p>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+      <div class="small-2 columns">
+        <div id="sidebar-right">
+          <div class="ads">
+            <div class="ad-slot">
+              <h6>Ad Slot</h6>
+              <img src="http://placegoat.com/200/200">
+            </div>
+            <div class="ad-slot">
+              <h6>Ad Slot</h6>
+              <img src="http://placegoat.com/200/200">
+            </div>
+            <div class="ad-slot">
+              <h6>Ad Slot</h6>
+              <img src="http://placegoat.com/goatse/200/200">
+            </div>
+            <div class="ad-slot">
+              <h6>Ad Slot</h6>
+              <img src="http://placegoat.com/200/200">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <form id="mailing-address-form" name="mailingAddressForm" action="#" method="post">
+      <h3>Mailing Address</h3>
+
+      <div class="flex-container">
+        <div>
+          <label for="first-name">First Name:</label>
+          <input type="text" id="first-name" name="firstName" />
+        </div>
+
+        <div>
+          <label for="last-name">Last Name:</label>
+          <input type="text" id="last-name" name="lastName" />
+        </div>
+      </div>
+
+      <div class="flex-container">
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" />
+      </div>
+
+      <div class="flex-container">
+        <div>
+          <label for="city">City:</label>
+          <input type="text" id="city" name="city" />
+        </div>
+
+        <div>
+          <label for="state">State:</label>
+          <input type="state" id="state" name="state" />
+        </div>
+
+        <div>
+          <label for="zip-code">Zip Code:</label>
+          <input type="text" id="zip-code" name="zipCode" />
+        </div>
+      </div>
+
+      <div class="flex-container">
+        <div>
+          <label for="phone-number">Phone Number:</label>
+          <input type="text" id="phone-number" name="phoneNumber" />
+        </div>
+
+        <div>
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" />
+        </div>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/js/vendor/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

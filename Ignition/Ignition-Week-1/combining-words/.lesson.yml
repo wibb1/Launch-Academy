@@ -1,0 +1,7 @@
+---
+title: "Combining Words"
+type: "exercise"
+description: "Put some words together with string concatenation"
+tags: "strings, concatenation"
+ignore:
+- "combining-words.md"

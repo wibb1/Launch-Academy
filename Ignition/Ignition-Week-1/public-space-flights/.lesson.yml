@@ -1,0 +1,6 @@
+---
+title: "Public Space Flights"
+type: "challenge"
+description: "Work with numbers in Ruby to solve this challenge"
+ignore:
+- "public-space-flights.md"

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= content_for?(:title) ? yield(:title) : "Launcher News" %></title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+    <%= stylesheet_link_tag 'https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/foundation.min.css' %>
+    <%= javascript_include_tag 'application' %>
+  </head>
+
+  <body>
+    <div class="contain-to-grid">
+      <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+          <li class="name">
+            <h1><%= link_to "Launcher News", root_path %></h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
+          <ul class="right">
+            <li class="has-form">
+              <div class="row collapse">
+                <%= form_tag(search_articles_path, method: :get) do %>
+                  <div class="large-8 small-9 columns">
+                    <%= text_field_tag 'query', params[:query], placeholder: 'Enter search term...' %>
+                  </div>
+                  <div class="large-4 small-3 columns">
+                    <%= submit_tag 'Search', class: 'alert button expand' %>
+                  </div>
+                <% end %>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+
+    <div class="row">
+      <div class="small-12 columns">
+        <%= yield %>
+      </div>
+    </div>
+
+    <%= javascript_include_tag 'https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/js/foundation.min.js' %>
+  </body>
+</html>

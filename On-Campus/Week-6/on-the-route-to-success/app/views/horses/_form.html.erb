@@ -1,0 +1,22 @@
+<%= form_with(model: horse, local: true) do |form| %>
+  <% if horse.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(horse.errors.count, "error") %> prohibited this horse from being saved:</h2>
+
+      <ul>
+      <% horse.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

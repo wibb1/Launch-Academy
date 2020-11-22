@@ -1,0 +1,12 @@
+<%# This is the framework for a new question form %>
+<h2>This is the question spot, you classy bitch</h2>
+  <%= form_for(@question) do |f|%>
+    
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+
+    <%= f.label :description %>
+    <%= f.text_field :description %>
+    
+    <%= f.submit "Push this classy shit to submit" %>
+<% end %>

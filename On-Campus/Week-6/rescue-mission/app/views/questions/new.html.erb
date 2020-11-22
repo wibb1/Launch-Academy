@@ -1,0 +1,8 @@
+ <h2>Enter a new Question:</h2>
+    <%= form_for(@question) do |f| %>
+      <%= f.label :title %>
+      <%= f.text_field :title %>
+      <%= f.label :description %>
+      <%= f.text_field :description %>
+      <%= f.submit "Submit", class:"button"%>
+    <% end %>

@@ -1,0 +1,9 @@
+<h1>House index page</h1>
+<ul>
+<% @houses.each do |house| %>
+  <li><%= link_to house.name, house_path(house) %></li>
+
+<% end %>
+</ul>
+
+<a href="/houses/new">Add New House</a>

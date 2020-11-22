@@ -1,0 +1,9 @@
+<h1><%= @title %></h1>
+
+<ul>
+  <% @campsites.each do |campsite| %>
+    <li>
+      <%= campsite.name %>
+    </li>
+  <% end %>
+</ul>

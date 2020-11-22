@@ -1,0 +1,13 @@
+class CreateQuestions < ActiveRecord::Migration[5.2]
+  def change
+    create_table :questions do |t|
+      t.string :title, null: false
+      t.text :description, null: false
+
+      t.timestamps null: false
+      
+      #may need belongs_to :users due to flow
+      
+    end
+  end
+end

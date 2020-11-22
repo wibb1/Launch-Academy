@@ -1,0 +1,20 @@
+<h1>Classy Question</h1>
+
+<ul>
+  <%= @question.title %>
+  <li><%= @question.description %></li>
+</ul>
+
+<h1>Classy Answers</h1>
+  <%= form_for([@question, @answer]) do |f|%>
+
+    <%= f.label :description %>
+    <%= f.text_field :description %> 
+    
+    <%= f.submit "Push this to correct this a-hole's classy shit" %>
+<% end %>
+
+ <% @answers.each do |answer|%>
+
+  <li><%= answer.description %></li>
+ <% end %>

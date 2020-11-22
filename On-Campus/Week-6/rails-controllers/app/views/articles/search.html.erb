@@ -1,0 +1,20 @@
+<h1>Search Results</h1>
+
+<br />
+
+<% if @articles.empty? %>
+
+<p>No results found.</p>
+
+<% else %>
+
+<p><%= "#{@articles.count} result(s) found." %></p>
+
+<ul class="unstyled">
+  <% @articles.each do |article| %>
+  <li>
+    <%= link_to article.title, article %>
+  </li>
+  <% end %>
+</ul>
+<% end %>

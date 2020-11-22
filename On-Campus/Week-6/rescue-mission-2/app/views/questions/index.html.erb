@@ -1,0 +1,17 @@
+<%# Step 6 - Our CONTROLLER is supplying our VIEW with our instance variable, @questions, and it is being pass to/through the HTML template that we have built %>
+
+<%# Imp Note - Our VIEW taking an instance variable and converting it to a viewable webpage to the user%>
+
+<h1>Classy Questions Index</h1>
+
+<ul>
+  <% @questions.each do |question| %>
+    <li>
+    <%= link_to question.title, question_path(question) %>
+    </li>
+    <%= question.created_at.strftime("%B, %d, %Y")%>
+  <% end %>
+</ul>
+
+<%# Step 7 - The VIEW passes the completed HTML to our CONTROLLER%>
+<%# Line 10 Link to the show page where we want only to display the question that was clicked %>

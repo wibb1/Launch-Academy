@@ -1,0 +1,19 @@
+<h1>Airplanes#index</h1>
+<p>Find me in app/views/airplanes/index.html.erb</p>
+  
+  
+  <h1>Airplanes</h1>
+
+<table>
+
+  <tbody>
+    <% @airplanes.each do |airplane| %>
+      <tr>
+        <td><%= airplane.name %></td>
+      </tr>
+    <% end %>
+  </tbody>
+
+  </table>
+
+<br>

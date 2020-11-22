@@ -1,0 +1,9 @@
+<h1> <%= @title %> </h1>
+
+<ul>
+  <% @supplies.each do |supply| %>
+    <li>
+      <%= supply.name %>
+    </li>
+  <% end %>
+</ul>

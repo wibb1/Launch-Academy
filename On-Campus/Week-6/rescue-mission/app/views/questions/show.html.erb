@@ -1,0 +1,17 @@
+<h1>Question:</h1>
+<h2><%= @question.title %></h2>
+<p> <%= @question.description %> </p>
+<%= link_to "Edit", edit_question_path(@question), class:"button" %>
+<%= link_to "Delete", @question, method: :delete, data: {confirm: "Are you sure? There can be no recovery. "}, class:"button" %>
+
+<h2>All Comments:</h2>
+  <%= form_for [@question, @answer] do |f| %>
+    <%= f.label :description %>
+    <%= f.text_field :description %>
+    <%= f.submit "Save", class: "button" %>
+  <% end %>
+<ul>
+<% @answers.each do |answer| %>
+  <li><%= answer.description %> | <%= answer.created_at.strftime("%m/%d/%y") %></li>
+<% end %>
+<ul>

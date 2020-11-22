@@ -1,0 +1,7 @@
+---
+title: "Checkout Line JS"
+type: "exercise"  # challenge, exercise, article, video
+description: "Use your knowledge of objects to print out the total of a transaction."
+tags: "javascript, objects"
+ignore:
+- "checkout-line-js.md"

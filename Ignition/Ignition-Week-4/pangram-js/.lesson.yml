@@ -1,0 +1,7 @@
+---
+title: "Pangram.js"
+type: "challenge"  # challenge, exercise, article, video
+description: "Grumpy wizards make toxic brew for the evil queen and jack."
+tags: "javascript, functions"
+ignore:
+- "pangram-js.md"

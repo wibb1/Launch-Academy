@@ -1,0 +1,7 @@
+---
+title: "Space Cargo"
+type: "challenge"  # challenge, exercise, article, video
+description: "Do you know where your towel is?"
+tags: "javascript"
+ignore:
+- "launch-sc-space-cargo.md"

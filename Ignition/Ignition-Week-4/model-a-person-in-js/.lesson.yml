@@ -1,0 +1,7 @@
+---
+title: "Model a Person in JS"
+type: "exercise"  # challenge, exercise, article, video
+description: "Use object literal notation to create an object."
+tags: "javascript, objects"
+ignore:
+- "model-a-person-in-js.md"

@@ -1,0 +1,7 @@
+---
+title: "Hangman In Space"
+type: "challenge"
+description: "Utilize methods and data structures to fuel the game of hangman"
+tags: "methods, parameters, arguments, arrays"
+ignore:
+- "hangman-in-space.md"

@@ -1,0 +1,6 @@
+---
+title: "NASA Data"
+type: "challenge"
+description: "Write multiple methods to parse a compound data structure to return values needed"
+ignore:
+- "nasa-data.md"

@@ -1,0 +1,7 @@
+---
+title: "Tic Tac Toe In Space"
+type: "exercise"
+description: "Utilize your knowledge of compound data structure and methods to print out a tic tac toe grid"
+tags: "methods, parameters, arguments, arrays, compound-data-structures, 2d-arrays"
+ignore:
+- "tic-tac-toe-in-space.md"

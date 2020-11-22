@@ -1,0 +1,7 @@
+---
+title: "Alien Greeting"
+type: "exercise"
+description: "Greet aliens as they arrive with a method that requires an argument"
+tags: "methods, parameters, arguments"
+ignore:
+- "alien-greeting.md"

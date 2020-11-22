@@ -1,0 +1,7 @@
+---
+title: "Average Mileage"
+type: "exercise"
+description: "Calculate ship mileage averages with methods and take advantage of return values"
+tags: "methods, parameters, arguments"
+ignore:
+- "average-mileage.md"

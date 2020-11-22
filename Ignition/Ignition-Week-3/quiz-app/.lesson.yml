@@ -1,0 +1,7 @@
+---
+title: "Quiz App"
+type: "challenge"  # challenge, exercise, article, video
+description: "Build a quiz app in JavaScript."
+tags: "javascript, conditionals"
+ignore:
+- "quiz-app.md"

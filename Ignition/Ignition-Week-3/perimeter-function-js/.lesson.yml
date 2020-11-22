@@ -1,0 +1,7 @@
+---
+title: "Perimeter Function JS"
+type: "exercise"  # challenge, exercise, article, video
+description: "Lesson Description."
+tags: "javascript, functions"
+ignore:
+- "perimeter-function-js.md"

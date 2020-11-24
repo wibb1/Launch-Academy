@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+}
+
+.tile {
+  border: 1px solid;
+  border-radius: 5%;
+  padding: 2px 5px;
+  margin: 10px;
+
+  p {
+    margin-bottom: 0px;
+  }
+
+  i {
+    float: right;
+  }
+}
